@@ -3,3 +3,4 @@ type: object
 properties:
   id:
     type: string
+    pattern: '^[\w\-]+?\.[\w\-]+?\.[\w\-]+?$'
