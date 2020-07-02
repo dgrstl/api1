@@ -15,7 +15,7 @@ paths:
           content:
             application/json:
               schema:
-                $ref: ../models/foo.v1.yaml
+                $ref: ../models/access_token.v1.json
       operationId: get-foo
 components:
   schemas: {}
